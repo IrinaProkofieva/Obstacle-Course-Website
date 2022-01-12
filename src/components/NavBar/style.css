@@ -1,0 +1,61 @@
+nav {
+    background-image: url("../../assets/nav-background2.jpg");
+    background-size: cover;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1000px)/2);
+    z-index: 10;
+    font-size: 24px;
+}
+
+.navLink {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navLink img {
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.active {
+    color: rgb(159,185,0);
+}
+
+.navLink:hover {
+    text-shadow: white 1px 0 10px, white 0 0 1em;
+}
+
+.faBars {
+    display: none;
+    color: #ffffff;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+@media screen  and (max-width: 900px){
+    .faBars {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .navMenu {
+        display: none;
+    }
+}
+
