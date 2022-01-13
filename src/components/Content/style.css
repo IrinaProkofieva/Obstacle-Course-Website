@@ -4,11 +4,10 @@
 
 .colorful-rectangle {
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .text-area {
+    position: absolute;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -19,6 +18,20 @@
 .photo-rectangle{
     object-fit: cover;
     position: absolute;
+}
+
+.top{
+    top: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.bottom {
     bottom: 0;
+}
+
+.right {
     right: 0;
 }
