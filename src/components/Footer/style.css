@@ -1,0 +1,36 @@
+footer {
+    background-color: #171B00;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem calc((100vw - 1000px)/2);
+    justify-content: center;
+}
+p{
+    color: white;
+}
+p.bigger{
+    font-size: 24px;
+}
+p.smaller{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 900px){
+    p.bigger{
+        font-size: 18px;
+    }
+    p.smaller{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    p.bigger{
+        font-size: 12px;
+    }
+    p.smaller{
+        font-size: 10px;
+    }
+}

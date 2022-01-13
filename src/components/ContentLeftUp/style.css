@@ -1,0 +1,24 @@
+#container {
+    position: relative;
+}
+
+.colorful-rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-area {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-rectangle{
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
