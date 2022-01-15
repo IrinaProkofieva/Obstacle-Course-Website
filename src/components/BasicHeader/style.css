@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'HeaderFont';
+    src: url("../../fonts/Maler.ttf") format('truetype'),
+         url("../../fonts/Maler-Regular.eot") format('embedded-opentype'),
+         url("../../fonts/Maler-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../../fonts/Maler-Regular.svg") format('svg'),
+         url("../../fonts/Maler-Regular.woff") format('woff'),
+         url("../../fonts/Maler-Regular.woff2");
+}
+
+header {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem calc((100vw - 1000px)/2);
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'HeaderFont';
+    font-size: max(8vw,8vh);
+}

@@ -11,5 +11,5 @@ main {
   background-image: url("../assets/main-background.jpg");
   background-repeat: repeat;
   background-size: 57%;
-  min-height: calc(100vh - 160px);
+  min-height: calc(100vh - 80px);
 }

@@ -1,12 +1,16 @@
 nav {
-    background-image: url("../../assets/nav-background2.jpg");
-    background-size: cover;
+    /*background-image: url("../../assets/nav-background2.jpg");
+    background-size: cover;*/
+    background-color: black;
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1000px)/2);
     z-index: 10;
     font-size: 24px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 .navLink {

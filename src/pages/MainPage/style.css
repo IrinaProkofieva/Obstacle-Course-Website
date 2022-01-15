@@ -1,10 +1,39 @@
 .main-page {
     color:white;
+}
+
+.desktop-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10vh;
-    font-size: max(1.4vw, 2.4vh);
-    padding: 5vh;
+    font-size: max(1.4vw, 2.2vh);
+    padding: 5vh 0;
+}
+
+.mobile-content {
+    display: none;
+}
+
+.logo-image {
+    position: absolute;
+    top: 67vh;
+    right: 10vw;
+    height: min(30vh, 35vw);
+}
+
+@media screen and (max-width: 900px){
+    .desktop-content {
+        display: none;
+    }
+    .mobile-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        font-size: min(4vw, 4vh);
+        padding: 5vh 0;
+    }
 }
