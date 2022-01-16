@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Obstacle-Course-Website/static/css/main.12922af7.css",
-    "main.js": "/Obstacle-Course-Website/static/js/main.eed93af2.js",
+    "main.js": "/Obstacle-Course-Website/static/js/main.1d6f3559.js",
     "static/media/main-background.jpg": "/Obstacle-Course-Website/static/media/main-background.c3e78d5bd83c6bed308e.jpg",
     "static/media/Maler-Regular.svg": "/Obstacle-Course-Website/static/media/Maler-Regular.11c3cf814769506f9e72.svg",
     "static/media/parties-5.jpg": "/Obstacle-Course-Website/static/media/parties-5.01e72928013ab2053066.jpg",
@@ -29,10 +29,10 @@
     "static/media/logo_white.png": "/Obstacle-Course-Website/static/media/logo_white.b62bf3a6913531f9bca9.png",
     "index.html": "/Obstacle-Course-Website/index.html",
     "main.12922af7.css.map": "/Obstacle-Course-Website/static/css/main.12922af7.css.map",
-    "main.eed93af2.js.map": "/Obstacle-Course-Website/static/js/main.eed93af2.js.map"
+    "main.1d6f3559.js.map": "/Obstacle-Course-Website/static/js/main.1d6f3559.js.map"
   },
   "entrypoints": [
     "static/css/main.12922af7.css",
-    "static/js/main.eed93af2.js"
+    "static/js/main.1d6f3559.js"
   ]
 }
