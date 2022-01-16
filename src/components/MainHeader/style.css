@@ -8,7 +8,7 @@
     url("../../fonts/Maler-Regular.woff2");
 }
 
-header {
+header.main-header {
     height: 100vh;
     background-image: url("../../assets/main-page-header.jpg");
     background-position: center;
@@ -17,7 +17,7 @@ header {
     padding: 0 0;
 }
 
-header div {
+header.main-header div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,13 @@ header div {
     height: 100%;
 }
 
-header h1 {
+header.main-header h1 {
     font-family: 'HeaderFont';
     font-size: max(7vw,7vh);
+}
+
+@media screen and (max-width: 400px){
+    header.main-header h1 {
+        font-size: max(5vw,5vh);
+    }
 }

@@ -1,0 +1,48 @@
+.trainings-page {
+    color:white;
+}
+
+.trainings-page .desktop-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    font-size: max(1.4vw, 2.2vh);
+    padding: 5vh 0;
+}
+
+.trainings-page .mobile-content {
+    display: none;
+}
+
+.trainings-page .logo-image {
+    position: absolute;
+    top: 250px;
+    right: 7vw;
+    height: min(25vh, 25vw);
+}
+
+@media screen and (max-width: 1000px){
+    .trainings-page .desktop-content {
+        display: none;
+    }
+    .trainings-page .mobile-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        font-size: min(4vw, 4vh);
+        padding: 5vh 0;
+    }
+    .trainings-page .logo-image{
+        height: min(22vh, 22vw);
+    }
+}
+
+@media screen and (max-width: 550px){
+    .trainings-page .logo-image {
+        height: min(30vh, 30vw);
+    }
+}

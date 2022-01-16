@@ -8,7 +8,7 @@ function NavBar(){
     const [isShown, setIsShown] = useState(false);
 
     const showNavbarDropout = () => {
-        if(window.innerWidth<900)
+        if(window.innerWidth<1000)
             setIsShown(!isShown)
     }
     return (
@@ -21,6 +21,9 @@ function NavBar(){
                     <FaBars />
                 </div>
                 <div className="navMenu" id={isShown?"shown":""}>
+                    <NavLink to="/" className="navLink" onClick={showNavbarDropout}>
+                        Главная
+                    </NavLink>
                     <NavLink to="/trainings" className="navLink" onClick={showNavbarDropout}>
                         Тренировки
                     </NavLink>

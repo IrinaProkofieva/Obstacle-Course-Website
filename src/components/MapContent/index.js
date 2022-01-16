@@ -3,14 +3,14 @@ import './style.css';
 
 const Content = (props) => {
     const [colorRectClass, setColorRectClass] = useState("colorful-rectangle");
-    const [photoRectClass, setPhotoRectClass] = useState("photo-rectangle");
+    const [mapRectClass, setMapRectClass] = useState("photo-rectangle");
     const [textAreaClass, setTextAreaClass] = useState("text-area");
     useEffect(()=>{
         setColorRectClass(colorRectClass+" "+props.horizontalPos+" "+props.verticalPos);
         setTextAreaClass(textAreaClass+" "+props.horizontalPos);
         let otherHorizontal = (props.horizontalPos==="left") ? "right" : "left";
         let otherVertical = (props.verticalPos==="top") ? "bottom" : "top";
-        setPhotoRectClass(photoRectClass+" "+otherHorizontal+" "+otherVertical);
+        setMapRectClass(mapRectClass+" "+otherHorizontal+" "+otherVertical);
     }, []);
     return (
         <>
@@ -21,7 +21,7 @@ const Content = (props) => {
                         {props.text}
                     </div>
                 </div>
-                <img src={props.imgsrc} className={photoRectClass} alt="Фото с тренировки" style={{width:`${props.width}`, height:`${props.height}`}}/>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9f7ef5db2efd4d484035d63de9409749e764a1fb847cde656443cf513a41dccd&amp;source=constructor" className={mapRectClass} style={{width:`${props.width}`, height:`${props.height}`}} />
             </div>
         </>
     )

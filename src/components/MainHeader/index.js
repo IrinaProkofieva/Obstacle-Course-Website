@@ -4,7 +4,7 @@ import './style.css';
 const MainHeader = (props) => {
     return (
         <>
-            <header>
+            <header className="main-header">
                 <div className="dark-overlay">
                     <h1>{props.text}</h1>
                 </div>

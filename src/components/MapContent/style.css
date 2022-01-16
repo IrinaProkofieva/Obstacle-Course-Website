@@ -20,9 +20,7 @@
 .text-area .content-header {
 }
 
-.photo-rectangle{
-    object-fit: cover;
-    object-position: center;
+iframe{
     position: absolute;
 }
 
