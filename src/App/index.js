@@ -1,6 +1,6 @@
 import './style.css';
 import NavBar from "../components/NavBar";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import TrainingsPage from "../pages/TrainingsPage";
 import Footer from "../components/Footer";
