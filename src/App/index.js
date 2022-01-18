@@ -9,9 +9,9 @@ import CompetitionsPage from "../pages/CompetitionsPage";
 import ContactPage from "../pages/ContactPage";
 
 function App() {
-    const mobilePhone = "+7 (917) 03-03-123";
-    const cityPhone = "+7 (846) 212-05-25";
-    const address = "Московское ш., 4, стр. 5, Самара";
+    const mobilePhone = <nobr>+7 (XXX) XXX-XX-XX</nobr>; //"+7 (917) 03-03-123"; //сотовый
+    const cityPhone = <nobr>+7 (XXX) XXX-XX-XX</nobr>;//"+7 (846) 212-05-25"; //городской
+    const address = "Московское ш., 4, стр. 5, Самара"; //адрес
     return (
         <Router>
             <div className="app">
